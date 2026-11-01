@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Georgia, serif;
+}
+
+h1, h2 {
+    color: green;
+    font-family: Georgia, serif;
+}
+
+div {
+    background-color: brown;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.destaque {
+    background-color: green;
+    color: white;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+}
+
+a {
+    color: green;
+}
+
+/*
+Mecanismo de Avaliação Metacognitiva
+
+1. Desafio Técnico: A regra mais difícil de aplicar foi a classe .destaque, porque no CSS é preciso pôr o ponto antes do nome e no HTML escreve-se class="destaque" sem ponto. Consegui superar isto pedindo ajuda à inteligência artificial.
+2. Correção de Sintaxe: Um erro/dificuldade que tive foi na regra margin: 10px 0. Sem o 0, o texto ficava longe da margem do ecrã. Tive de voltar ao Notepad++, testei valores diferentes e percebi que faltava o 0, o que deixou a página mais junta à margem e mais estética.
+3. Autoria: O atributo src serve para dizer ao browser onde está a imagem que queremos mostrar na página.
+*/
